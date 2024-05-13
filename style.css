@@ -18,7 +18,8 @@ html {
 
 .header {
       text-align: center;
-      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #ddd;
 }
 
 .header img {
@@ -26,8 +27,28 @@ html {
       height: auto;
 }
 
-.footer {
+/* Email Content */
+.email-content {
       margin-top: 20px;
+}
+
+ /* Social Links */
+ .social-links {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .social-links a {
+      display: inline-block;
+      margin: 0 10px;
+  }
+
+  .social-links i {
+     font-size: larger;
+  }
+
+.footer {
+      margin-top: 10px;
       padding-top: 20px;
       border-top: 1px solid #ddd;
 }
