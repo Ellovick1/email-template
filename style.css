@@ -7,6 +7,11 @@ html {
       background-color: #f4f4f4;
 }
 
+img {
+      width: 100%;
+      height: 100%;
+}
+
 .email-wrapper {
       max-width: 600px;
       margin: 20px auto;
@@ -27,25 +32,34 @@ html {
       height: auto;
 }
 
+/* Gif image */
+.gif-image {
+      margin-top: 20px;
+      height: auto;
+}
+
 /* Email Content */
 .email-content {
       margin-top: 20px;
 }
 
- /* Social Links */
- .social-links {
+/* Social Links */
+.social-links {
       text-align: center;
-      margin-bottom: 20px;
-  }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
 
-  .social-links a {
+.social-links a {
       display: inline-block;
-      margin: 0 10px;
-  }
+      margin: 0 7px;
+}
 
-  .social-links i {
-     font-size: larger;
-  }
+.social-links svg {
+      /* height: 20px; */
+      /* width: 20px; */
+}
 
 .footer {
       margin-top: 10px;
